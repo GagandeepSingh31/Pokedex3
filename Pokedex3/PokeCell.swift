@@ -25,7 +25,7 @@ class PokeCell: UICollectionViewCell {
         
     }
     
-    func congifureCell(pokemon: Pokemon) {
+    func congifureCell(_ pokemon: Pokemon) {
         
        // self.pokemon = pokemon
         //self.nameLbl.text = self.pokemon.name
