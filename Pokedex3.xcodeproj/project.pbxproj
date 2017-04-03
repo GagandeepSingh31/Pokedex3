@@ -18,6 +18,7 @@
 		6C65F36E1E82F11100798493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C65F36C1E82F11100798493 /* LaunchScreen.storyboard */; };
 		6C65F3761E82F5D900798493 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C65F3751E82F5D900798493 /* pokemon.csv */; };
 		6C65F37B1E82F6FB00798493 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F37A1E82F6FB00798493 /* Pokemon.swift */; };
+		6C7564C21E928A3E009DCD7F /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7564C11E928A3E009DCD7F /* PokemonDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		6C65F36F1E82F11100798493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C65F3751E82F5D900798493 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		6C65F37A1E82F6FB00798493 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		6C7564C11E928A3E009DCD7F /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,6 @@
 				6C6306DE1E923BDB0015B385 /* Resources */,
 				6C6306DF1E923C1D0015B385 /* Util */,
 				6C65F3631E82F11100798493 /* AppDelegate.swift */,
-				6C65F3651E82F11100798493 /* ViewController.swift */,
 				6C65F3671E82F11100798493 /* Main.storyboard */,
 				6C65F36A1E82F11100798493 /* Assets.xcassets */,
 				6C6306D71E922A8F0015B385 /* csv.swift */,
@@ -102,6 +103,8 @@
 		6C65F3771E82F6D000798493 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6C7564C11E928A3E009DCD7F /* PokemonDetailVC.swift */,
+				6C65F3651E82F11100798493 /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				6C524BD11E8303A500C1588D /* PokeCell.swift in Sources */,
 				6C65F3661E82F11100798493 /* ViewController.swift in Sources */,
 				6C65F3641E82F11100798493 /* AppDelegate.swift in Sources */,
+				6C7564C21E928A3E009DCD7F /* PokemonDetailVC.swift in Sources */,
 				6C65F37B1E82F6FB00798493 /* Pokemon.swift in Sources */,
 				6C6306D81E922A8F0015B385 /* csv.swift in Sources */,
 			);
